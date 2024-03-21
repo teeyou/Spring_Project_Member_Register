@@ -10,8 +10,10 @@ mapper > memberMapper.xml 파일에 parameterType을 별칭으로 쓸 수 있음
 별칭을 정의하지않으면 parameterType에 DTO 클래스가 있는 전체경로를 써줘야함
 
 - webapp > WEB-INF   
-여기에 root-context.xml , servlet-context.xml , web.xml 파일생성함   
-context 파일이 제대로 되어있지 않으면 java 디렉토리 안에 있는 자바 클래스파일이 정상적으로 실행안됨
+여기에 root-context.xml , servlet-context.xml , web.xml 파일 생성함   
+context 파일이 제대로 되어있지 않으면 java 디렉토리 안에 있는 자바 클래스파일이 정상적으로 실행안됨   
+root-contextxml - 데이터베이스를 사용하기 위한 정보들이 들어있음   
+servlet-context.xml - Controller와 jsp파일 매핑을 위한 정보가 들어있음
 
 - webapp > WEB-INF > views
 여기에 jsp파일 생성함   
